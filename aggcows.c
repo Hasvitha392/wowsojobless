@@ -85,7 +85,7 @@ ll tof(ll dis)
     return 0;
 }
 
-ll binsear()
+ll binsearch()
 {
     ll l = 0, r = arr[N-1];
     ll temp = -7;
@@ -115,7 +115,7 @@ int main(void)
             scanf("%lld", &arr[j]);
         }
         mergeSort(0, N-1);
-        ll ans = binsear(arr);
+        ll ans = binsearch(arr);
         printf("%lld\n", ans);
     }
 
