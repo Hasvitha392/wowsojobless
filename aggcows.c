@@ -1,7 +1,8 @@
 #include <stdio.h>
 #define ll long long int 
+#define ld long double 
 ll N, C;
-ll arr[100007];
+ll arr[2000007];
 void merge(ll  l, ll  m, ll  r) 
 { 
     ll  i, j, k; 
