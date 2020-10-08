@@ -120,7 +120,7 @@ int main(void)
         printf("%lld\n", ans);
     }
     // conclusion: pavs is jobless
-   // edit: so yo dumbass can get a tshirt
+   // edit: so your dumbass can get a tshirt
 
     return 0;
 }
