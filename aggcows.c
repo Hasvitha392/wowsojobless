@@ -5,6 +5,7 @@ ll N, C;
 ll arr[2000007];
 void merge(ll  l, ll  m, ll  r) 
 { 
+// wow so jobless    
     ll  i, j, k; 
     ll  n1 = m - l + 1; 
     ll  n2 =  r - m; 
@@ -72,13 +73,13 @@ ll tof(ll dis)
     ll cow, pos;
     cow = 1;
     pos = arr[0];
-    for(ll i=0;i<N;i++)
+    for(ll i=0; i <N;i++)
     {
         if(arr[i]-pos>=dis)
         {
             pos = arr[i];
             cow++;
-            if(cow==C)
+            if(cow == C)
             return 1;
         }
     }
@@ -118,6 +119,7 @@ int main(void)
         ll ans = binsearch(arr);
         printf("%lld\n", ans);
     }
+    // conclusion: pavs is jobless
 
     return 0;
 }
