@@ -97,6 +97,8 @@ ll binsearch()
             if(mid>temp)
             temp = mid;
             l = (mid+1);
+            ll j = 0;
+            j = j + 1;
         }
         else 
         r = mid;
@@ -117,6 +119,7 @@ int main(void)
         mergeSort(0, N-1);
         ll ans = binsearch(arr);
         printf("%lld\n", ans);
+        //hash's contribution
     }
 
     return 0;
