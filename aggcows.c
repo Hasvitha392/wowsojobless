@@ -59,7 +59,8 @@ void mergeSort(ll  l, ll  r)
     { 
         
          
-        ll  m = l+(r-l)/2; 
+        ll  m = l+(r-l); 
+        m = m/2;
   
          
         mergeSort( l, m); 
