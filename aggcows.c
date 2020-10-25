@@ -6,7 +6,8 @@ ll arr[2000007];
 void merge(ll  l, ll  m, ll  r) 
 { 
     ll  i, j, k; 
-    ll  n1 = m - l + 1; 
+    ll  n1 = m - l;
+    n1 = n1 + 1;
     ll  n2 =  r - m; 
   
     
@@ -31,7 +32,7 @@ void merge(ll  l, ll  m, ll  r)
         else
         { 
             arr[k] = R[j]; 
-            j++; 
+            j = j + 1; 
         } 
         k++; 
     } 
